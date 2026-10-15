@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shoebox"
+version = "0.1.0"
+description = "Local-first receipt and invoice sorter for freelancers, powered by open-weight models via Ollama."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+pdf = ["pypdf>=4.0"]
+
+[project.scripts]
+shoebox = "shoebox.cli:main"
+
+[tool.setuptools]
+packages = ["shoebox"]

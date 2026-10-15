@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">Shoebox</title>
+  <desc id="d">Receipts dropping into a shoebox and coming out as a tidy ledger</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1633"/>
+      <stop offset="1" stop-color="#0f2a3f"/>
+    </linearGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4a261"/>
+      <stop offset="1" stop-color="#d9843f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+
+  <!-- falling receipts -->
+  <g fill="#fdf6e3" stroke="#e8dfc4" stroke-width="2">
+    <g transform="translate(150 28) rotate(-12)"><rect width="64" height="92" rx="4"/></g>
+    <g transform="translate(240 12) rotate(8)"><rect width="64" height="92" rx="4"/></g>
+    <g transform="translate(325 40) rotate(-4)"><rect width="64" height="92" rx="4"/></g>
+  </g>
+  <g stroke="#b9ae8c" stroke-width="3" stroke-linecap="round">
+    <path d="M165 55h30M163 70h36M161 85h24" transform="rotate(-12 165 55)"/>
+    <path d="M254 40h30M256 55h36M258 70h24" transform="rotate(8 254 40)"/>
+    <path d="M339 66h30M339 81h36M339 96h24"/>
+  </g>
+
+  <!-- shoebox -->
+  <rect x="120" y="150" width="310" height="110" rx="10" fill="url(#box)"/>
+  <rect x="104" y="136" width="342" height="34" rx="8" fill="#f9b57a"/>
+  <rect x="236" y="190" width="78" height="26" rx="6" fill="#fff4e5" opacity="0.9"/>
+
+  <!-- arrow -->
+  <path d="M480 160h120" stroke="#7dd3fc" stroke-width="6" stroke-linecap="round"/>
+  <path d="M584 142l24 18-24 18" fill="none" stroke="#7dd3fc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ledger -->
+  <rect x="640" y="70" width="170" height="190" rx="10" fill="#e6f4ea"/>
+  <g stroke="#2f855a" stroke-width="4" stroke-linecap="round">
+    <path d="M662 106h90M662 134h126M662 162h70M662 190h110M662 218h84"/>
+  </g>
+  <g fill="#2f855a">
+    <circle cx="652" cy="106" r="3"/><circle cx="652" cy="134" r="3"/><circle cx="652" cy="162" r="3"/>
+    <circle cx="652" cy="190" r="3"/><circle cx="652" cy="218" r="3"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="860" y="150" font-family="'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff">shoebox</text>
+  <text x="862" y="190" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#a5b4fc">receipts in. ledger out.</text>
+  <text x="862" y="222" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#a5b4fc">no cloud. no per-document fee.</text>
+</svg>

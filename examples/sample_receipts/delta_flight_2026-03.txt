@@ -1,0 +1,7 @@
+DELTA AIR LINES - E-TICKET RECEIPT
+Passenger: A. Freelancer
+Flight DL 118  AUS -> JFK   09/03/2026
+Fare              $262.40
+Taxes and fees     $41.60
+TOTAL            $304.00 USD
+Client visit: Brightside Studio kickoff

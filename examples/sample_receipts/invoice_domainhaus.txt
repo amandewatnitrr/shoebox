@@ -1,0 +1,8 @@
+INVOICE INV-2026-0317
+From: DomainHaus Ltd
+Issued: 17 March 2026   Due: 16 April 2026
+
+.dev domain renewal, 1 year       12.00
+Whois privacy                      0.00
+VAT (20%)                          2.40
+Amount due                  GBP 14.40
